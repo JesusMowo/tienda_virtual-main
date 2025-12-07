@@ -5,7 +5,7 @@ date_default_timezone_set("America/Caracas");
 $db_host = 'localhost';
 $db_user = 'root';
 $db_pass = ''; 
-$db_name = 'flavio_token'; 
+$db_name = 'tienda_virtual';
 
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 if ($conn->connect_error) {

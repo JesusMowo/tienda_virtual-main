@@ -1,0 +1,161 @@
+:root {
+    --ft-bg-dark: #0B0E11;
+    --ft-card-bg: #1E242C;
+    --ft-blue: #3A7BFF;
+    --ft-purple: #884BFF;
+    --ft-green: #3F493D;
+    --ft-white: #FFFFFF;
+}
+
+body {
+    background-color: var(--ft-bg-dark);
+    color: var(--ft-white);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+.title {
+    font-family: 'Montserrat', sans-serif !important;
+    color: var(--ft-white) !important;
+}
+
+.has-text-primary {
+    color: var(--ft-purple) !important;
+}
+
+.label {
+    color: var(--ft-white) !important;
+}
+
+.input {
+    background-color: var(--ft-card-bg);
+    border: 1px solid var(--ft-green);
+    color: var(--ft-white);
+}
+
+.input:focus {
+    border-color: var(--ft-purple);
+}
+
+/* NAVBAR */
+.navbar .button {
+    border-radius: 8px;
+    background-color: var(--ft-card-bg);
+}
+
+.navbar .button:hover {
+    background-color: var(--ft-purple) !important;
+    color: white !important;
+}
+
+.navbar-item,
+.navbar-link {
+    color: var(--ft-white);
+}
+
+.navbar-item:hover,
+.navbar-link:hover {
+    background-color: var(--ft-bg-dark) !important;
+    color: var(--ft-purple) !important;
+}
+
+/* CARDS */
+.card {
+    background-color: var(--ft-card-bg);
+    border: 1px solid var(--ft-green);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: none;
+    border-color: var(--ft-green) !important;
+}
+
+.card-content {
+    color: var(--ft-white);
+}
+
+.title.is-5 {
+    color: var(--ft-white);
+}
+
+/* BOTONES */
+.button.is-primary {
+    background-color: var(--ft-purple);
+    color: var(--ft-white);
+}
+
+.button.is-primary:hover {
+    background-color: #884BFF
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--ft-card-bg);
+    padding: 3rem 1.5rem;
+    margin-top: auto;
+    border-top: 1px solid var(--ft-green);
+}
+
+.footer p,
+.footer h5,
+.footer a {
+    color: var(--ft-white);
+}
+
+.footer a:hover {
+    color: var(--ft-purple);
+}
+
+/* CAJAS DE SELECCION Metodo de pago*/
+.radio-box {
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.radio-box:hover {
+    background-color: #f5f5f5;
+}
+
+.radio-box.selected {
+    border-color: var(--ft-primary);
+    background-color: rgba(136, 75, 255, 0.1);
+}
+
+.table.is-hoverable.has-background-dark tbody tr:hover {
+    background-color: #363636 !important;
+}
+
+.table.is-hoverable.has-background-dark tbody tr:hover td,
+.table.is-hoverable.has-background-dark tbody tr:hover th {
+    color: #ffffff !important;
+}
+
+/* IMPRESION */
+@media print {
+
+    .navbar,
+    .footer,
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    .box {
+        border: none;
+        box-shadow: none;
+    }
+
+}
