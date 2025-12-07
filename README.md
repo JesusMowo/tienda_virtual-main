@@ -21,29 +21,7 @@ Este proyecto es una plataforma funcional de **Marketplace de Tokens No Fungible
 La aplicación sigue una convención MVC (Modelo-Vista-Controlador) simple centralizada por el *router* principal.
 ¡Aquí tienes el contenido del archivo README.md listo para que lo copies y pegues!
 
-Este archivo está estructurado usando el formato Markdown y cubre todos los aspectos de tu proyecto de Marketplace NFT en PHP.
-Markdown
-
-# 🚀 Plataforma de Marketplace NFT
-
-## 🌟 Descripción del Proyecto
-
-Este proyecto es una plataforma funcional de **Marketplace de Tokens No Fungibles (NFT)** construida utilizando **PHP** bajo un patrón de arquitectura de **Front Controller** (`index.php`). El objetivo es simular las operaciones básicas de un mercado de activos digitales, permitiendo a los usuarios registrarse, explorar el *marketplace*, gestionar sus perfiles y realizar transacciones utilizando una billetera de saldo simulado.
-
-## 🛠️ Tecnologías Clave
-
-| Categoría | Tecnología |
-| :--- | :--- |
-| **Backend** | PHP (v8.0+) |
-| **Base de Datos** | MySQL / MariaDB |
-| **Arquitectura** | Patrón Front Controller (Routing en `index.php`) |
-| **Frontend** | HTML, CSS (posiblemente Bootstrap), JavaScript |
-
 ---
-
-## 📦 Estructura de Directorios
-
-La aplicación sigue una convención MVC (Modelo-Vista-Controlador) simple centralizada por el *router* principal.
 
 ## ⚙️ Instalación y Configuración Local
 
@@ -107,9 +85,7 @@ Si deseas mejorar este proyecto o reportar un *bug*, por favor:
 3.  Realiza tus cambios.
 4.  Envía un *Pull Request* claro y conciso.
 
-## 📄 Licencia
-
-[Indica aquí el tipo de licencia, ej. Licencia MIT o Propiedad Exclusiva.]
+---
 
 ## Autores
 
