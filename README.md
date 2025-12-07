@@ -37,8 +37,7 @@ Sigue estos pasos para poner en marcha el proyecto en un entorno local (como XAM
 
 1.  Clona este repositorio o descarga los archivos.
     ```bash
-    git clone 
-    cd nombre-del-proyecto
+    git clone https://github.com/JesusMowo/tienda_virtual-main
     ```
 2.  Crea la base de datos en tu servidor (ej. `tienda_virtual`).
 3.  **Importa el Esquema SQL** que esta en alojada en la carpeta db
