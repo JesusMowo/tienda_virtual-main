@@ -57,6 +57,30 @@ Accede al proyecto a través de tu navegador
 
 ---
 
+## 👥 Roles de Usuario y Permisos
+
+El sistema implementa una jerarquía de roles para gestionar la seguridad y la moderación de la plataforma:
+
+### 1. Usuario (User)
+Es el rol predeterminado al registrarse.
+* **Exploración:** Puede ver y buscar NFTs en el inicio y el listado.
+* **Comercio:** Puede comprar NFTs (si tiene saldo) y poner en venta los que posee.
+* **Creación:** Puede subir nuevos NFTs ("Drops") a la plataforma.
+* **Finanzas:** Acceso a su billetera personal y a su historial de transacciones propio.
+
+### 2. Administrador (Admin)
+Encargado de la moderación y el soporte. Tiene todos los permisos de *Usuario* más:
+* **Moderación de Usuarios:** Puede vetar (banear) usuarios problemáticos y reactivar cuentas desde el perfil del usuario.
+* **Moderación de Contenido:** Puede eliminar NFTs que infrinjan las normas directamente desde la vista del producto.
+* **Auditoría:** Puede ver los reportes financieros y el historial de transacciones de cualquier usuario específico.
+
+### 3. Dueño (Owner)
+El rol de super-administrador o CEO de la plataforma. Tiene todos los permisos de *Admin* más:
+* **Gestión de Staff:** Puede promover usuarios normales a Administradores o degradar Administradores a usuarios.
+* **Visión Global:** Acceso exclusivo al "Modo Dios" en los reportes financieros, donde puede ver la ganancia neta total de la plataforma (comisiones acumuladas) y todas las transacciones del sistema.
+
+---
+
 ## 🔑 Funcionalidades del Marketplace
 
 La aplicación maneja las siguientes vistas controladas por el archivo `index.php`:
